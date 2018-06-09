@@ -12,6 +12,7 @@
 		FAD03A3720CA184600BC4F2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD03A3520CA184600BC4F2C /* Main.storyboard */; };
 		FAD03A3920CA184700BC4F2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD03A3820CA184700BC4F2C /* Assets.xcassets */; };
 		FAD03A3C20CA184700BC4F2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD03A3A20CA184700BC4F2C /* LaunchScreen.storyboard */; };
+		FAD03A4520CA187100BC4F2C /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD03A4420CA187100BC4F2C /* Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FAD03A3820CA184700BC4F2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAD03A3B20CA184700BC4F2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAD03A3D20CA184700BC4F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD03A4420CA187100BC4F2C /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		FAD03A3020CA184600BC4F2C /* IOS-Swift-DarkTransparentBlind */ = {
 			isa = PBXGroup;
 			children = (
+				FAD03A4320CA185400BC4F2C /* Helper */,
 				FAD03A3120CA184600BC4F2C /* AppDelegate.swift */,
 				FAD03A3320CA184600BC4F2C /* ViewController.swift */,
 				FAD03A3520CA184600BC4F2C /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				FAD03A3D20CA184700BC4F2C /* Info.plist */,
 			);
 			path = "IOS-Swift-DarkTransparentBlind";
+			sourceTree = "<group>";
+		};
+		FAD03A4320CA185400BC4F2C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FAD03A4420CA187100BC4F2C /* Extentions.swift */,
+			);
+			name = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				FAD03A3420CA184600BC4F2C /* ViewController.swift in Sources */,
 				FAD03A3220CA184600BC4F2C /* AppDelegate.swift in Sources */,
+				FAD03A4520CA187100BC4F2C /* Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
